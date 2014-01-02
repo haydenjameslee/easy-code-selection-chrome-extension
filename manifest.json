@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Easy Code Selection",
+  "name": "One Click Code Selection",
   "description": "Select the entire contents of all <code> tags with one click.",
-  "version": "1.0",
+  "version": "1.1",
 
   "content_scripts": [
     {

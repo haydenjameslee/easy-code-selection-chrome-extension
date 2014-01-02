@@ -35,22 +35,3 @@ jQuery(document).ready(function(){
     });
 });
 
-//On load event handlers for jQuery 1.6.1
-jQuery(document).ready(function(){
-    var flag;
-    jQuery('code').live('mousedown', function() {
-        flag = 0;
-    });
-
-    jQuery('code').live('mousemove', function(){
-        flag = 1;
-    });
-
-    jQuery('code').live('mouseup', function(){
-        if(flag === 0){
-            selectText(jQuery(this)[0]);
-        }
-    });
-});
-
-
